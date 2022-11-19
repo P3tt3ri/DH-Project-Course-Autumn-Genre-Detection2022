@@ -3,8 +3,8 @@ Repository for files of the genre detection group for the Digital Humanities Pro
 
 Files in the root folder:
 
-- ecco_helper.py                              > Module containing some utility functions
-- LIME_demo.ipynb                             > Jupyter notebook demonstrating the use of **lime** package
+- **ecco_helper.py**: Module containing some utility functions
+- **LIME_demo.ipynb**: Jupyter notebook demonstrating the use of **lime** package
 
 Subfolders:
 - data: json and csv files containing ECCO data
