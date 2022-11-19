@@ -7,9 +7,11 @@ Files in the root folder:
 - **LIME_demo.ipynb**: Jupyter notebook demonstrating the use of **lime** package
 
 Subfolders:
-- data: json and csv files containing ECCO data
-  - labels.json                               ECCO genre/subgenre labels and their numeric IDs
-  - test.csv                                  Document IDs of the test set documents
-  - ecco_bert_seq_test_set_first_chunks.csv   The first text chunks of the test set: doc id, predicted genre, the tokenized text of the chunk, predicted probabilities for each genre  
-- model_dir:
+
+- **data**: json and (just the one at the moment) csv files containing ECCO data
+  - **labels.json**:                               ECCO genre/subgenre labels and their numeric IDs
+  - **test.csv**:                                  Document IDs of the test set documents
+  - **ecco_bert_seq_test_set_first_chunks.csv**   The first text chunks of the test set: doc id, predicted genre, the tokenized text of the chunk, predicted probabilities for each genre  
+
+- **model_dir**: ECCO-BERT PyTorch model files (just the one at the moment)
   - ecco_genre_main_ecco_bert_100_epoches.pt  The fine tuned ECCO-BERT-seq model for main genre prediction.  
