@@ -8,10 +8,10 @@ Files in the root folder:
 
 Subfolders:
 
-- **data**: json and (just the one at the moment) csv files containing ECCO data
+- **data**: json and csv files containing ECCO data
   - **labels.json**:                               ECCO genre/subgenre labels and their numeric IDs
   - **test.csv**:                                  Document IDs of the test set documents
-  - **ecco_bert_seq_test_set_first_chunks.csv**   The first text chunks of the test set: doc id, predicted genre, the tokenized text of the chunk, predicted probabilities for each genre  
+  - **ecco_bert_seq_test_set_first_chunks.csv**:   The first text chunks of the test set: doc id, predicted genre, the tokenized text of the chunk, predicted probabilities for each genre  
 
 - **model_dir**: ECCO-BERT PyTorch model files (just the one at the moment)
-  - ecco_genre_main_ecco_bert_100_epoches.pt  The fine tuned ECCO-BERT-seq model for main genre prediction.  
+  - **ecco_genre_main_ecco_bert_100_epoches.pt**:  The fine tuned ECCO-BERT-seq model for main genre prediction.  
