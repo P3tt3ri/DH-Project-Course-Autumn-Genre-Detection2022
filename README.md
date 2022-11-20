@@ -15,3 +15,5 @@ Subfolders:
 
 - **model_dir**: ECCO-BERT PyTorch model files (just the one at the moment)
   - **ecco_genre_main_ecco_bert_100_epoches.pt**:  The fine tuned ECCO-BERT-seq model for main genre prediction. **Note:** The file was too large to push directly into the repository, so we created a release (1.0) that includes it. Just copy the file into the **model_dir** after downloading the release and unzipping the source files.
+  
+**Note to self!!!: create a new release after pushing all the program files to the repo.**
