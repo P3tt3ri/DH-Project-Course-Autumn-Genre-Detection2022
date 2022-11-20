@@ -14,6 +14,6 @@ Subfolders:
   - **ecco_bert_seq_test_set_first_chunks.csv**:   The first text chunks of the test set: doc id, predicted genre, the tokenized text of the chunk, predicted probabilities for each genre  
 
 - **model_dir**: ECCO-BERT PyTorch model files (just the one at the moment)
-  - **ecco_genre_main_ecco_bert_100_epoches.pt**:  The fine tuned ECCO-BERT-seq model for main genre prediction. **Note:** The file was too large to push directly into the repository, so we created a release (1.0) that includes it. Just copy the file into the **model_dir** after downloading the release and unzipping the source files.
+  - **ecco_genre_main_ecco_bert_100_epoches.pt**:  The fine tuned ECCO-BERT-seq model for main genre prediction. **Note:** The file was too large to push directly into the repository, so we created a release (1.0) that includes it. Just copy the file into the **model_dir** folder after downloading the release and unzipping the source files.
   
 **Note to self!!!: create a new release after pushing all the program files to the repo.**
